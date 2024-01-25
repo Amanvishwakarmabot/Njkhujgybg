@@ -1344,8 +1344,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ],[
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
-        ],[
-            InlineKeyboardButton('❗ Disclaimer ❗', callback_data='Disclaimer')
+           
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -1370,7 +1369,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "Disclaimer":
         buttons = [[
-            InlineKeyboardButton('⇚Back', callback_data='JoinUᴘᴅᴀᴛᴇs')
+            InlineKeyboardButton('⇚Back', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
