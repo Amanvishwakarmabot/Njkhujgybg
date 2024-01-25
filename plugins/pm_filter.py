@@ -1382,7 +1382,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        elif query.data == "vansh":
+    elif query.data == "vansh":
         buttons = [[
             InlineKeyboardButton('𝑺𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒆 𝒎𝒚 𝒀𝑻 𝒄𝒉𝒂𝒏𝒏𝒆𝒍', url='https://youtube.com/@ytdautobotz?si=gVP9stGBDZKueRVz')
         ],[
