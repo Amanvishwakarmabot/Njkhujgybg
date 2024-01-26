@@ -1557,7 +1557,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "2plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='1plan'),
             InlineKeyboardButton('2/7', callback_data='start'),
@@ -1587,7 +1587,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "3plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='2plan'),
             InlineKeyboardButton('3/7', callback_data='start'),
@@ -1617,7 +1617,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "4plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='3plan'),
             InlineKeyboardButton('4/7', callback_data='start'),
@@ -1647,7 +1647,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "5plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='4plan'),
             InlineKeyboardButton('5/7', callback_data='h'),
@@ -1677,7 +1677,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "6plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='5plan'),
             InlineKeyboardButton('6/7', callback_data='h'),
@@ -1708,7 +1708,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "7plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='6plan'),
             InlineKeyboardButton('7/7', callback_data='h'),
@@ -1738,11 +1738,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "amanji":
         buttons = [[
-            InlineKeyboardButton('group1', callback_data='amanjiji')
+            InlineKeyboardButton('𝙎𝘾𝘼𝙉 𝙌𝙍 𝘾𝙊𝘿𝙀', callback_data='amanjiji')
         ],[
-            InlineKeyboardButton('group1', callback_data='amanjijiji')
+            InlineKeyboardButton('𝙋𝘼𝙔 𝙑𝙄𝘼 𝙐𝙋𝙄 𝙄𝘿', callback_data='amanjijiji')
         ],[
-            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='check')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
@@ -1757,7 +1757,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "amanjiji":
         buttons = [[
-            InlineKeyboardButton('Sand screenshot', url='https://t.me/findhere7')
+            InlineKeyboardButton('Sand screenshot', url='https://t.me/BOT_OWNER26')
           ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='amanji')
         ]]
@@ -1774,7 +1774,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "amanjijiji":
         buttons = [[
-            InlineKeyboardButton('Sand screenshot', url='https://t.me/findhere7')
+            InlineKeyboardButton('Sand screenshot', url='https://t.me/BOT_OWNER26')
           ],[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='amanji')
         ]]
@@ -1792,8 +1792,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-            InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='source')
-        ],[   
+        ],[  
             InlineKeyboardButton('❗ Disclaimer ❗', callback_data='Disclaimer')
         ],[ 
             InlineKeyboardButton('Hᴏᴍᴇ', callback_data='start'),
