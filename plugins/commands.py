@@ -50,13 +50,13 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', callback_data='vansh')
+                    InlineKeyboardButton('💸 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰', callback_data="shortlink_info"),
+                    InlineKeyboardButton('🍻 𝑼𝒑𝒅𝒂𝒕𝒆', callback_data='vansh')
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='check')
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='check')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         m=await message.reply_sticker("CAACAgQAAxkBAAJITmV9o8jwlk2sFkYen13yUB9KRftDAAL2EAACULvgU8SbYPGo146YHgQ") 
