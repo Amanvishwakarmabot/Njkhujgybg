@@ -1288,13 +1288,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
                     InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://telegram.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ', callback_data="shortlink_info"),
-                    InlineKeyboardButton('🍻 Mᴏᴠɪᴇ Gʀᴏᴜᴘ', callback_data='vansh')
+                    InlineKeyboardButton('💸 𝑬𝒂𝒓𝒏 𝒎𝒐𝒏𝒆𝒚 💰', callback_data="shortlink_info"),
+                    InlineKeyboardButton('🍻 𝑼𝒑𝒅𝒂𝒕𝒆', callback_data='vansh')
                 ],[
                     InlineKeyboardButton('⚠️ Hᴇʟᴘ', callback_data='help'),
                     InlineKeyboardButton('🔰 Aʙᴏᴜᴛ', callback_data='about')
                 ],[
-                    InlineKeyboardButton('🍀 Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ 🍀', callback_data='check')
+                    InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='check')
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1526,7 +1526,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "1plan":
         buttons = [[
-            InlineKeyboardButton('🔱ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʟᴀɴ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔱ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ɢᴇᴛ ғʀᴇᴇ ᴘʟᴀɴ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='7plan'),
             InlineKeyboardButton('1/7', callback_data='start'),
@@ -1557,7 +1557,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "2plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='1plan'),
             InlineKeyboardButton('2/7', callback_data='start'),
@@ -1587,7 +1587,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "3plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='2plan'),
             InlineKeyboardButton('3/7', callback_data='start'),
@@ -1617,7 +1617,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "4plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='3plan'),
             InlineKeyboardButton('4/7', callback_data='start'),
@@ -1647,7 +1647,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "5plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='4plan'),
             InlineKeyboardButton('5/7', callback_data='h'),
@@ -1677,7 +1677,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ) 
     elif query.data == "6plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='5plan'),
             InlineKeyboardButton('6/7', callback_data='h'),
@@ -1708,7 +1708,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "7plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='6plan'),
             InlineKeyboardButton('7/7', callback_data='h'),
