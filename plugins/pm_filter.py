@@ -1708,7 +1708,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "7plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/BOT_OWNER26"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='6plan'),
             InlineKeyboardButton('7/7', callback_data='h'),
@@ -1736,6 +1736,25 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
+    elif query.data == "amanji":
+        buttons = [[
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
+        ],[
+            InlineKeyboardButton('group1', url='https://t.me/findhere7')
+        ],[
+            InlineKeyboardButton('group1', url='https://t.me/findhere7')
+       ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.AMAN_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+    )
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
