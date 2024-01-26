@@ -59,7 +59,7 @@ async def start(client, message):
                     InlineKeyboardButton('✨𝑩𝑼𝒀 𝑺𝑼𝑩𝑺𝑪𝑹𝑰𝑷𝑻𝑰𝑶𝑵 : 𝑹𝑬𝑴𝑶𝑽𝑬 𝑨𝑫𝑺✨', callback_data='check')
                   ]]
         reply_markup = InlineKeyboardMarkup(buttons)
-        m=await message.reply_sticker("CAACAgQAAxkBAAJITmV9o8jwlk2sFkYen13yUB9KRftDAAL2EAACULvgU8SbYPGo146YHgQ") 
+        m=await message.reply_sticker("CAACAgQAAxkBAAEBEVVls9akqMR_a3yJ8cj82eR90j4U2AACBQMAAnJxFyVYcSIunXgGjh4E") 
         await asyncio.sleep(1)
         await m.delete()
         await message.reply_photo(
