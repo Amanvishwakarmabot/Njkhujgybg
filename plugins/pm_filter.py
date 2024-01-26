@@ -1615,7 +1615,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         ) 
-     elif query.data == "4plan":
+    elif query.data == "4plan":
         buttons = [[
             InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
         ],[
@@ -1675,7 +1675,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         ) 
-        elif query.data == "6plan":
+    elif query.data == "6plan":
         buttons = [[
             InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="https://t.me/EK4MPREETSINGH"), 
         ],[
@@ -1684,7 +1684,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ɴᴇxᴛ⪢', callback_data='7plan')
             ],[
             InlineKeyboardButton('⇌Bᴀᴄᴋ⇌', callback_data='start')
-        ]]kup = InlineKeyboardMarkup(buttons)
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text="■ □ □"
         )
