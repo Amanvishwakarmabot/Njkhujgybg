@@ -1,4 +1,4 @@
-# Don't Remove Credit @VJ_Botz
+se# Don't Remove Credit @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot @Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -1708,7 +1708,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "7plan":
         buttons = [[
-            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', url="amanji"), 
+            InlineKeyboardButton('🔐ᴄʟɪᴄᴋ ʜᴇʀᴇ ᴛᴏ ʙᴜʏ ᴘʀᴇᴍɪᴜᴍ', callback_data="amanji"), 
         ],[
             InlineKeyboardButton('⪣ʙᴀᴄᴋ', callback_data='6plan'),
             InlineKeyboardButton('7/7', callback_data='h'),
@@ -1754,7 +1754,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.AMAN_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-    )
+        )
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
