@@ -1740,7 +1740,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
         ],[
-            InlineKeyboardButton('group1', url='https://t.me/findhere7')
+            InlineKeyboardButton('group1', callback_data='amanjiji')
         ],[
             InlineKeyboardButton('group1', url='https://t.me/findhere7')
        ]]
@@ -1752,6 +1752,23 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
         await query.message.edit_text(
             text=script.AMAN_TXT,
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
+    elif query.data == "amanjiji":
+        buttons = [[
+            InlineKeyboardButton('Sand screenshot', url='https://t.me/findhere7')
+          ],[
+            InlineKeyboardButton('⇋ ʙᴀᴄᴋ ⇋', callback_data='start')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        await query.message.edit_text(
+            text=script.AMANV_TXT,
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
